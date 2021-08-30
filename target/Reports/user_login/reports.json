@@ -1,0 +1,298 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-30T12:55:07.989Z",
+        "line": 17,
+        "name": "Google-Search engine",
+        "description": "",
+        "id": "google-search-service;google-search-engine;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4269191,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "web browser is open",
+            "match": {
+              "location": "StepDefinitions.GoogleSearchStep.web_browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 806402,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on google home page",
+            "match": {
+              "location": "StepDefinitions.GoogleSearchStep.user_is_on_google_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 776789,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \u003csearchText\u003e",
+            "match": {
+              "location": "StepDefinitions.GoogleSearchStep.user_enters_search_text()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1732076,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks Login Button",
+            "match": {
+              "location": "StepDefinitions.GoogleSearchStep.user_clicks_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 429098,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is navigated to search results page",
+            "match": {
+              "location": "StepDefinitions.GoogleSearchStep.user_is_navigated_to_search_results_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 307167,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "New searched page is displayed",
+            "match": {
+              "location": "StepDefinitions.GoogleSearchStep.new_searched_page_is_displayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Tag(\"Google_Search_Engine\")"
+          }
+        ]
+      }
+    ],
+    "name": "Google Search Service",
+    "description": "",
+    "id": "google-search-service",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/resources/Features/GoogleSearch.feature",
+    "tags": [
+      {
+        "name": "@Tag(\"Google_Search_Engine\")",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-30T12:55:08.101Z",
+        "line": 11,
+        "name": "Check Login is successful with valid credentials.",
+        "description": "",
+        "id": "login-functionality-test-feature;check-login-is-successful-with-valid-credentials.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 745882,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on Login page",
+            "match": {
+              "location": "StepDefinitions.LoginStep.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2747556,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters the userName1 and password1",
+            "match": {
+              "location": "StepDefinitions.LoginStep.user_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 600558,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on the login button",
+            "match": {
+              "location": "StepDefinitions.LoginStep.clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 546741,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is redirected to Dashboard/Home Page",
+            "match": {
+              "location": "StepDefinitions.LoginStep.user_is_redirected_to_dashboardhome_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-30T12:55:08.144Z",
+        "line": 12,
+        "name": "Check Login is successful with valid credentials.",
+        "description": "",
+        "id": "login-functionality-test-feature;check-login-is-successful-with-valid-credentials.;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 584468,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on Login page",
+            "match": {
+              "location": "StepDefinitions.LoginStep.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 493982,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters the userName2 and password2",
+            "match": {
+              "location": "StepDefinitions.LoginStep.user_enters_the_username_and_password2()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 234621,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on the login button",
+            "match": {
+              "location": "StepDefinitions.LoginStep.clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 241541,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is redirected to Dashboard/Home Page",
+            "match": {
+              "location": "StepDefinitions.LoginStep.user_is_redirected_to_dashboardhome_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-30T12:55:08.158Z",
+        "line": 13,
+        "name": "Check Login is successful with valid credentials.",
+        "description": "",
+        "id": "login-functionality-test-feature;check-login-is-successful-with-valid-credentials.;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 190550,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on Login page",
+            "match": {
+              "location": "StepDefinitions.LoginStep.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 184041,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters the userName3 and password3",
+            "match": {
+              "location": "StepDefinitions.LoginStep.user_enters_the_username_and_password3()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 165716,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on the login button",
+            "match": {
+              "location": "StepDefinitions.LoginStep.clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 236359,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is redirected to Dashboard/Home Page",
+            "match": {
+              "location": "StepDefinitions.LoginStep.user_is_redirected_to_dashboardhome_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality Test Feature",
+    "description": "",
+    "id": "login-functionality-test-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/resources/Features/Login.feature",
+    "tags": []
+  }
+]
